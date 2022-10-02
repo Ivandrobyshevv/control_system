@@ -1,0 +1,13 @@
+Все записи:
+
+Всего записей - {{ teacher|count }}
+{% for tecaher in  teachers %}
+ФИО  - {{ tecaher }}
+Студенты:
+{% for student in tecaher.students %}
+ФИО:{{ student.name }} {{ student.surname }}
+Возраст: {{ student.age }}
+Телефон: {{ student.phone }}
+===========================
+{% endfor %}
+{% endfor %}
