@@ -18,5 +18,5 @@ Task: Задача: Создать информационную систему, 
 
 Function
 
-1. Add teacher
+1. Adding teacher
 2. Adding students to teacher
